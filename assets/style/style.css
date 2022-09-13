@@ -1,0 +1,95 @@
+@media (max-width: 800px) {
+    .currency input {
+        width: 200px;
+    }
+
+    .money-img {
+        width: 600px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: linear-gradient(to bottom, rgb(148, 221, 243), #5a005ada)
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.botao {
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 5px 12px;
+    font-size: 20px;
+    border: 3px solid white;
+}
+
+.coinConverter {
+    width: 25%;
+    height: 10%;
+}
+
+.moeda {
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moeda input {
+    border: 3px solid black;
+    border-radius: 16px;
+    text-align: right;
+    font-size: 23px;
+}
+
+.inverterConversao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taxa {
+    font-weight: bold;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+select {
+    font-size: 16px;
+    font-weight: bold;
+    width: 75px;
+    padding: 5px;
+    border-radius: 16px;
+    border: 3px solid black;
+}
+
+select:focus,
+input:focus,
+button:focus {
+    outline: 0;
+}
